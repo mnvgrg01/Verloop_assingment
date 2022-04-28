@@ -88,8 +88,8 @@ def _get_api_key() -> str:
     Returns google API key from environment variable
     :return: string
     """
-    #VERLOOP_GOOGLE_API_KEY = os.environ.get('VERLOOP_GOOGLE_API_KEY', '')
-    return 'AIzaSyCOD3KvY2DDzEfel-NZ_LKIWXr86EF_EUw'
+    VERLOOP_GOOGLE_API_KEY = os.environ.get('VERLOOP_GOOGLE_API_KEY', '')
+    return VERLOOP_GOOGLE_API_KEY
         
 @app.route('/',methods = ['GET'])
 def index_page():
