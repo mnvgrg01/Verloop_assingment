@@ -1,5 +1,3 @@
-#Web Framework - a collection of libraries or modules that helps in developing web applications.
-
 import requests
 import logging
 from bs4 import BeautifulSoup
